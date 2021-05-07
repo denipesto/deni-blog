@@ -14,10 +14,10 @@ const Header = ({ title, content }) => {
             <LogoIcon />
           </a>
         </Link>
-
-        <Command />
-
-        {title && <div className={styles.content}>{title}</div>}
+        <div className={styles.command_right}>
+          {title && <div className={styles.content}>{title}</div>}
+          <Command />
+        </div>
       </div>
     </nav>
   )
