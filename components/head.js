@@ -5,8 +5,8 @@ const defaultOgImage =
   'https://res.cloudinary.com/dsdlhtnpw/image/upload/v1572673557/og-image_budbm8.png'
 
 const Head = ({
-  title = 'Paco Coursey',
-  description = "Hi, I'm Paco. Frontend developer and designer.",
+  title = 'Deni Pesto',
+  description = "Deni Pesto. Frontend developer and designer.",
   image = defaultOgImage,
   children
 }) => {
