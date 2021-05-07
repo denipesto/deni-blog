@@ -1,3 +1,19 @@
+
+
+/* 27 april 2021 Scroll 2 */
+.container::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.container::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+.container::-webkit-scrollbar-thumb {
+  background-color: #11171a;
+  border-radius: 10px;
+}
+
 .screen {
   position: fixed;
   top: 0;

@@ -44,6 +44,7 @@
   padding: 0 var(--gap);
   max-width: var(--main-content);
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -51,7 +52,11 @@
   overflow: auto;
   color: var(--gray-alpha);
   font-weight: 500;
-  margin-left: var(--gap-double);
+  margin-right: var(--gap-double);
+}
+.command_right {
+  display: flex;
+  justify-content: space-between;
 }
 
 .hint {
@@ -59,7 +64,7 @@
   color: var(--gray);
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
 }
 
 .hint kbd {
