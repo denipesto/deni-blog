@@ -15,16 +15,13 @@ const About = () => {
           Наблюдаю за  <Link underline href="/vision">
             мирозданием.
           </Link>{' '}
-          Изучаю {' '}
-          <Link underline href="/blog">
-            дизайн, фотографию, кинематограф, живопись, устройство человека и красоту природы.
-          </Link>{' '}
+          Изучаю дизайн, фотографию, кинематограф, живопись, устройство человека и красоту природы.
         </p>
 
         <p>
-          Здесь  мои  {' '}
-          <Link underline href="https://vercel.com" external>
-            проекты
+          Подписаться на мой  {' '}
+          <Link underline href="https://instagram.com/denipesto" external>
+            инстаграм
           </Link>{' '}
           ✨
         </p>
