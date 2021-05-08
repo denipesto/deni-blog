@@ -8,12 +8,12 @@ const Error = ({ status }) => {
   return (
     <Page title={status || 'Error'}>
       <Head>
-        <title>404 — Paco Coursey</title>
+        <title>404 — Deni Pesto</title>
       </Head>
 
       {status === 404 ? (
         <>
-          <h1>This page cannot be found.</h1>
+          <h1>Страница ушла в пропасть</h1>
 
           <p>
             <blockquote cite="http://www.aaronsw.com/weblog/visitingmit">

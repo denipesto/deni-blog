@@ -36,21 +36,21 @@ const Head = ({
       <meta name="og:image" content={image} />
 
       {/* URL */}
-      <meta name="og:url" content="https://paco.sh" />
+      <meta name="og:url" content="https://deni.pro/" />
 
       {/* General */}
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@pacocoursey" />
-      <meta name="apple-mobile-web-app-title" content="Paco" />
-      <meta name="author" content="Paco Coursey" />
+      <meta name="twitter:site" content="@denipesto" />
+      <meta name="apple-mobile-web-app-title" content="Deni" />
+      <meta name="author" content="Deni Pesto" />
 
       {/* RSS feed */}
       <link
         rel="alternate"
         type="application/rss+xml"
-        title="RSS Feed for paco.sh"
+        title="RSS Feed for Deni Pesto"
         href="/feed.xml"
       />
 

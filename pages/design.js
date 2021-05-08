@@ -11,8 +11,8 @@ const Design = () => {
 
   return (
     <Page
-      title="Design"
-      description="Collection of beautiful websites and portfolios that I admire."
+      title="Дизайн"
+      description="Коллекция восхитительных дизайнов"
     >
       <article>
         {imageItems.map(entry => {
